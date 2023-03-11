@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Style for labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+/* Style for text */
+p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Style for link */
+a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #0062cc;
+}

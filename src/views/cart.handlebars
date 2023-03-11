@@ -1,0 +1,30 @@
+<html>
+    <body>
+       
+<h1>Cart con ID:{{cart._id}} </h1>
+<div class="cart">
+<ul>
+  {{#each cart.products}}
+  
+    <li>
+      
+      <h2>{{this.product_id.title}}</h2>
+      <p>Description: {{this.product_id.description}}</p>
+      <p>Price: {{this.product_id.price}}</p>
+      <p>Thumbnail: {{this.product_id.thumbnail}}</p>
+      <p>code: {{this.product_id.code}}</p>
+      <p>stock: {{this.product_id.stock}}</p>
+      <p>status: {{this.product_id.status}}</p>
+      <p>category: {{this.product_id.category}}</p>
+      <p>Quantity: {{quantity}}</p>
+    </li>
+  {{/each}}
+</ul>
+</div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+<script src="/js/cart.js"></script>
+
+  </html>

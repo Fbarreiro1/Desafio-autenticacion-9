@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <H1> PERFIL </H1>
+
+  <a href="/products">VER PRODUCTOS</a>
+  <br>
+  <br>
+
+  <label for="first_name">Nombre:</label>
+  <p>{{user.first_name}}</p>
+  <br>
+  <br>
+  <label for="last_name">Apellido:</label>
+<p>{{user.last_name}}</p> 
+  <br>
+  <br>
+  <label for="email">Correo electrónico:</label>
+  <p>{{user.email}}</p> 
+  <br>
+  <br>
+  <a href="/auth/logout">Cerrar Sesion</a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+<script src="/js/profile.js"></script>
+  </html>
